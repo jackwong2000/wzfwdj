@@ -352,17 +352,19 @@ imgReady('images/pro-1.jpg', function () { },
             <li class="m1"><span class="white"><a href="http://www.wzfwdj.com/zhongxin/ueditor/net/upload/2013-04-18-1948d85843-3912-4970-a244-dd02485759d3.doc" target="_blank">受权委托备案表  |
 			<em style="float:right;margin:auto 12px auto auto; font-style:normal">42.50KB</em>
 			</a></span></li>
-            <li class="m2"><span class="white"><a href="http://www.wzfwdj.com/zhongxin/ueditor/net/upload/2013-04-12-278fed0720-589f-474a-a8c9-914c28b661d4.doc" target="_blank">办证“绿色通道”（快件）登记表  |
+            <li class="m1"><span class="white"><a href="http://www.wzfwdj.com/zhongxin/ueditor/net/upload/2013-04-12-278fed0720-589f-474a-a8c9-914c28b661d4.doc" target="_blank">办证“绿色通道”（快件）登记表  |
 			<em style="float:right;margin:auto 12px auto auto; font-style:normal">20.02KB</em>
 			</a></span></li>
-            <li class="m3"><span class="white"><a href="http://www.wzfwdj.com/zhongxin/ueditor/net/upload/2012-11-21-382938e7c7-46b8-4290-8411-44309bc3e4e6.doc" target="_blank">温州市房屋登记申请书（买卖）  |
+            <li class="m1"><span class="white"><a href="http://www.wzfwdj.com/zhongxin/ueditor/net/upload/2012-11-21-382938e7c7-46b8-4290-8411-44309bc3e4e6.doc" target="_blank">温州市房屋登记申请书（买卖）  |
 			<em style="float:right;margin:auto 12px auto auto; font-style:normal">56.00KB</em></a></span></li>
-            <li class="m3"><span class="white"><a href="formdown/温州市房屋抵押登记申请书.doc" target="_blank">温州市房屋抵押登记申请书  |
+            <li class="m1"><span class="white"><a href="formdown/温州市房屋抵押登记申请书.doc" target="_blank">温州市房屋抵押登记申请书  |
 			<em style="float:right;margin:auto 12px auto auto; font-style:normal">46.50KB</em></a></span></li>
-            <li class="m3"><span class="white"><a href="formdown/温州市房屋抵押变更登记申请书.doc" target="_blank">温州市房屋抵押变更登记申请书  |
+            <li class="m1"><span class="white"><a href="formdown/温州市房屋抵押变更登记申请书.doc" target="_blank">温州市房屋抵押变更登记申请书  |
 			<em style="float:right;margin:auto 12px auto auto; font-style:normal">58.00KB</em></a></span></li>
-            <li class="m3"><span class="white"><a href="formdown/温州市房屋抵押（预告、在建）注销登记申请书.doc" target="_blank">温州市房屋抵押（预告、在建）注销登记申请书  |
+            <li class="m1"><span class="white"><a href="formdown/温州市房屋抵押（预告、在建）注销登记申请书.doc" target="_blank">温州市房屋抵押（预告、在建）注销登记申请书  |
 			<em style="float:right;margin:auto 12px auto auto; font-style:normal">53.50KB</em></a></span></li>
+			<li class="m1"><span class="white"><a href="formdown/温州市房屋抵押预告登记申请书.doc" target="_blank">温州市房屋抵押预告登记申请书  |
+			<em style="float:right;margin:auto 12px auto auto; font-style:normal">55.00KB</em></a></span></li>
 			
 			</ul>
 		</section>
