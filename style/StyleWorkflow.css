@@ -1,0 +1,442 @@
+﻿body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #575757;
+    font-family: '宋体',Arial;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+div {
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.dashed li, .dot 
+{
+    font-size: 14px;
+    width: 207px;
+    height: 24px;
+    border-bottom: 1px dotted buttonshadow;
+    text-align: center;
+}
+
+.imgdashed li, .dot {
+    height: auto;
+    border-bottom: 1px dotted buttonshadow;
+}
+
+.block {
+    overflow: hidden;
+    width: 940px;
+}
+
+button
+{
+    width: 110px;
+    font-size: 16px;
+}
+
+a {
+    color: #3D3D3D;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    padding: 5px 37px 5px 37px;
+	star:expression(this.onFocus=this.blur());
+}
+a:hover {
+    color: #FF7E00;
+    text-decoration: none;
+}
+a:active {
+    outline: none;
+}
+a:visited {
+    outline: none;
+}
+
+a.imglink {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B4B4B4;
+    color: #606060;
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+a.imglink:hover {
+    border: 1px solid #FF9C00;
+}
+a.imglink span {
+    border: 1px solid #FFFFFF;
+    display: inline;
+    overflow: hidden;
+}
+a.imglink img {
+    border: 1px solid #FFFFFF;
+}
+a.imglink span img {
+    border: medium none;
+}
+
+.AreaL2 {
+    float: left;
+    width: 217px;
+	font-family: '宋体',Arial;
+}
+
+.AreaR2 {
+    float: right;
+    width: 75%;
+	font-family: '华文中宋','宋体',Arial;
+}
+
+.box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #EBEBEB;
+}
+
+.box ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.itemTit {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../../images/tit_spr.gif") repeat-x scroll 0 0 #3D85C3;
+	background-origin:content-box;
+    border-color: #54A3E1 #54A3E1 #477CA3;
+	height: 26px;
+	width: 100%;
+	padding: 0 0 0 0;
+	border: 0 2px 0 2px;
+    line-height: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+.itemTit h2 {
+    color: #CEF1FF;
+    text-align:center;
+    font-size: 14px;
+	position: relative;
+	display: inline;
+	top: 7px;
+}
+
+.box_1 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BBBBBB;
+}
+
+.box_2 {
+    font-size: 15px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BBBBBB;
+    height: 430px;
+    overflow-y: scroll;
+    zoom: 1.12;
+}
+
+.box_3{
+    height: 48px;
+    font-size: 22px;
+	text-align: center;
+}
+
+.box_4 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #EBEBEB;
+}
+.boxBtn
+{
+	display: inline;
+	padding:0 2px 0 2px;
+	position: relative;
+}
+
+.boxBtn a {
+    font-size: 18px;
+    background: url("../images/workflow/btn_small.png") no-repeat;
+	background-origin:border-box;
+    text-decoration:none;
+    text-align: left;
+    padding: 17px 0 21px 11px;
+    cursor:hand;
+	position: relative;
+	clear: left;
+	display: inline-block;
+}
+.boxBtn a:hover {
+    background: url("../images/workflow/btn_small_dark.png") left 0 no-repeat;
+    padding: 17px 0 21px 11px;
+	position: relative;
+}
+.boxBtn a:visited {
+    background: url("../images/workflow/btn_small.png") no-repeat left 0;
+    padding: 17px 0 21px 11px;
+    outline: none;
+	position: relative;
+}
+.boxBtn a:visited:hover {
+    background: url("../images/workflow/btn_small_dark.png") left 0 no-repeat;
+    padding: 17px 0 21px 11px;
+	position: relative;
+}
+.boxBtn a:active {
+    outline: none;
+	position: relative;
+}
+.boxBtn a span {
+    background: url("../images/workflow/btn.png") right 0 no-repeat;
+    padding: 19px 20px 21px 11px;
+	position: relative;
+}
+.boxBtn a:hover span {
+    background: url("../images/workflow/btn_dark.png") no-repeat right 0;
+    padding: 19px 20px 21px 11px;
+	position: relative;
+}
+.boxBtn a:visited span {
+    background: url("../images/workflow/btn.png") no-repeat right 0;
+    padding: 19px 20px 21px 11px;
+	position: relative;
+}
+.boxBtn a:visited:hover span {
+    background: url("../images/workflow/btn_dark.png") no-repeat right 0;
+    padding: 19px 20px 21px 11px;
+	position: relative;
+}
+
+.current
+{
+	display: inline;
+	padding:0 2px 0 2px;
+	position: relative;
+}
+.current a {
+    font-size: 18px;
+    background: url("../images/workflow/btn_small_dark.png") no-repeat;
+	background-origin:padding-box;
+    text-decoration:none;
+    text-align: left;
+    padding: 17px 0 21px 11px;
+	color: #FFFFFF;
+    cursor:hand;
+	clear: left;
+	display: inline-block;
+}
+.current a:hover {
+    background: url("../images/workflow/btn_small_dark.png") no-repeat;
+    padding: 17px 0 21px 11px;
+	border: 0px solid #FFF;
+}
+.current a:visited {
+    background: url("../images/workflow/btn_small_dark.png") no-repeat;
+	background-origin:padding-box;
+    padding: 17px 0 21px 11px;
+    color: #FFFFFF;
+	border: 0px solid #FFF;
+    outline: none;
+}
+.current a:active {
+    outline: none;
+	position: relative;
+}
+.current a span {
+    background: url("../images/workflow/btn_dark.png") right 0 no-repeat;
+    padding: 19px 20px 21px 11px;
+	position: relative;
+}
+.current a:hover span {
+    background: url("../images/workflow/btn_dark.png") right 0 no-repeat;
+    padding: 19px 20px 21px 11px;
+	position: relative;
+}
+.current a:visited span {
+    background: url("../images/workflow/btn_dark.png") no-repeat right 0;
+    padding: 19px 20px 21px 11px;
+    color: #FFFFFF;
+	position: relative;
+}
+
+
+.boxPadd {
+    padding: 0 0 0 0;
+	margin: 2px 2px 2px 2px;
+	overflow-y: hidden;
+}
+
+.top_list2 {
+    padding: 0px 8px 0px;
+}
+
+.likeRes li {
+    padding: 6px 0 6px 0;
+}
+
+.likeRes li .dep_img {
+    overflow: hidden;
+    text-align: center;
+    width: 98px;
+}
+
+.dep_img a {
+    margin-bottom: 2px;
+    padding: 0 0 0 0;
+}
+
+.res_listview ul 
+{
+    list-style:none;
+    padding: 0 0px;
+}
+.res_listview ul li {
+    padding: 12px 11px 12px 11px;
+}
+.res_listview ul li .portrait_img {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 170px;
+}
+
+.portrait_img 
+{
+    padding: 0 4px 0 4px;
+    float: left;
+    width: 199px;
+}
+
+.portrait_img img
+{
+    width: 135px;
+    height: 193px;
+}
+
+#myLink {
+    position: relative;
+    right: -17px;
+    top: 30px;
+}
+#myLink A {
+    border: 1px dotted buttonshadow;
+    color: buttontext;
+    font-family: 楷体_GB2312;
+    font-size: 24px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 0.75;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+    padding: 15px 12px 15px 12px;
+}
+#myLink A font {
+    color: #D3D3D3;
+    font-family: Webdings;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    z-index: -1;
+}
+#myLink A:hover {
+    border: 1px solid buttontext;
+    color: highlight;
+    padding: 15px 12px 15px 12px;
+}
+#myLink2 A:hover font {
+    color: #DCDCDC;
+}
+#myLink2 {
+    position: relative;
+    right: -6px;
+    top: 74px;
+}
+#myLink2 A {
+    border: 1px dotted buttonshadow;
+    color: buttontext;
+    font-family: 楷体_GB2312;
+    font-size: 24px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 0.75;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+    padding: 15px 12px 15px 12px;
+}
+#myLink2 A font {
+    color: #D3D3D3;
+    font-family: Webdings;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    z-index: -1;
+}
+#myLink2 A:hover {
+    border: 1px solid buttontext;
+    color: highlight;
+    padding: 15px 12px 15px 12px;
+}
+#myLink2 A:hover font {
+    color: #DCDCDC;
+}
+
+#printLink A:hover font {
+    color: #DCDCDC;
+}
+#printLink {
+    position: relative;
+    right: -800px;
+    top: 130px;
+}
+#printLink A {
+    border: 1px dotted buttonshadow;
+    color: buttontext;
+    font-family: 楷体_GB2312;
+    font-size: 24px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 0.75;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+    padding: 15px 12px 15px 12px;
+}
+#printLink A font {
+    color: #D3D3D3;
+    font-family: Webdings;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    z-index: -1;
+}
+#printLink A:hover {
+    border: 1px solid buttontext;
+    color: highlight;
+    padding: 15px 12px 15px 12px;
+}
+#printLink A:hover font {
+    color: #DCDCDC;
+}

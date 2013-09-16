@@ -1,0 +1,153 @@
+﻿<po>
+	<!--全局-->
+	<message msgid="#pChina a" msgstr="Chinaese" />
+	<message msgid="#pEnging a" msgstr="English" />
+	<!--全局-->
+	<!--menu_index:start-->
+	<menu_index msgid="#pro_window .m1 a" msgstr="Product introduction" />
+	<menu_index msgid="#wrap .m1 a" msgstr="Intelligent management platform" />
+	<menu_index msgid="#protype1" msgstr="Intelligent management platform" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#wrap .m2 a" msgstr="Network video recorder" />
+	<menu_index msgid="#protype2" msgstr="Network video recorder" />
+	<menu_index msgid="#wrap .m3 a" msgstr="IP camera" />
+	<menu_index msgid="#protype3" msgstr="IP camera" />
+	<menu_index msgid="" msgstr="Rifle type naming rules" />
+	<menu_index msgid="" msgstr="Dome type naming rules" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#wrap .m4 a" msgstr="Video codec" />
+	<menu_index msgid="#protype4" msgstr="Video codec" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#wrap .m5 a" msgstr="Wireless video surveillance product" />
+	<menu_index msgid="#protype5" msgstr="Wireless video surveillance product" />
+	<menu_index msgid="" msgstr="Wireless video surveillance products naming rules" />
+	<menu_index msgid="" msgstr="Mobile vihicle system naming rules" />
+	<menu_index msgid="" msgstr="Personal video system naming rules" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#wrap .m6 a" msgstr="Network storage" />
+	<menu_index msgid="#protype6" msgstr="Network storage" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#wrap .m7 a" msgstr="Optical transceiver" />
+	<menu_index msgid="#protype7" msgstr="Optical transceiver" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#wrap .m8 a" msgstr="Network keyboard" />
+	<menu_index msgid="#protype8" msgstr="Network keyboard" />
+	<menu_index msgid="" msgstr="Technical characteristic" />
+	<menu_index msgid="#pro_window .m2 a" msgstr="Solution" />
+	<menu_index msgid="#solve .title1" msgstr="Intelligent surveillance and security management  solution" />
+	<menu_index msgid="#solve .m1 a" msgstr="City" />
+	<menu_index msgid="#solvetitle1" msgstr="City" />
+	<menu_index msgid="#solve .m2 a" msgstr="Community" />
+	<menu_index msgid="#solvetitle2	" msgstr="Community" />
+	<menu_index msgid="#solve .m3 a" msgstr="Building" />
+	<menu_index msgid="#solvetitle3" msgstr="Building" />
+	<menu_index msgid="#solve .title2" msgstr="Intelligent industry" />
+	<menu_index msgid="#solve .m4 a" msgstr="Intelligent electric power" />
+	<menu_index msgid="#solvetitle4" msgstr="Intelligent electric power" />
+	<menu_index msgid="#solve .m5 a" msgstr="Intelligent travel" />
+	<menu_index msgid="#solvetitle5" msgstr="Intelligent travel" />
+	<menu_index msgid="#solve .m6 a" msgstr="Rail traffic" />
+	<menu_index msgid="#solvetitle6" msgstr="Rail traffic" />
+	<menu_index msgid="#solve .m7 a" msgstr="Elevator" />
+	<menu_index msgid="#solvetitle7" msgstr="Elevator" />
+	<menu_index msgid="#solve .m8 a" msgstr="Expressway Monitoring" />
+	<menu_index msgid="#solvetitle8" msgstr="Expressway Monitoring" />
+	<menu_index msgid="#pro_window .m3 a" msgstr="Company introduction" />
+	<menu_index msgid="#about .m1 a" msgstr="Group Introduction" />
+	<menu_index msgid=".aboutmenu .m1 a" msgstr="Group Introduction" />
+	<menu_index msgid="#leftside .about1" msgstr="Group Introduction" />
+	<menu_index msgid="#about .m2 a" msgstr="FiberHome Digital" />
+	<menu_index msgid=".aboutmenu .m2 a" msgstr="FiberHome Digital" />
+	<menu_index msgid="#leftside .about2" msgstr="FiberHome Digital" />
+	<menu_index msgid="#about .m3 a" msgstr="Enterprise culture" />
+	<menu_index msgid=".aboutmenu .m3 a" msgstr="Enterprise culture" />
+	<menu_index msgid="#leftside .about3" msgstr="Enterprise culture" />
+	<menu_index msgid="#about .m5 a" msgstr="Brand qualification" />
+	<menu_index msgid=".aboutmenu .m5 a" msgstr="Brand qualification" />
+	<menu_index msgid="#leftside .about5" msgstr="Brand qualification" />
+	<menu_index msgid=".pingpai1 .title" msgstr="Brand qualification" />
+	<menu_index msgid=".pingpai2 .title" msgstr="Enterprise qualification" />
+	<menu_index msgid=".pingpai3 .title" msgstr="Professional qualification" />
+	<menu_index msgid=".pingpai4 .title" msgstr="Standard organization、Academy" />
+	<menu_index msgid="#about .m6 h1" msgstr="Information Center" />
+	<menu_index msgid=".aboutmenu .m6 a" msgstr="Information Center" />
+	<menu_index msgid="#leftside .about6" msgstr="Information Center" />
+	<menu_index msgid="#about .m4 a" msgstr="Leader's Care" />
+	<menu_index msgid=".aboutmenu .m4 a" msgstr="Leader's Care" />
+	<menu_index msgid="#leftside .about4" msgstr="Leader's Care" />
+	<menu_index msgid="#leftside .about7" msgstr="Exhibition" />
+	<menu_index msgid=".aboutmenu .m7 a" msgstr="Exhibition" />
+	<menu_index msgid="#pro_window .m4 a" msgstr="Advanced technology" />
+	<menu_index msgid="#techh1" msgstr="Technical scheme" />
+	<menu_index msgid="#leftside .tech span" msgstr="Technical scheme" />
+	<menu_index msgid=".techmenu .m1 a" msgstr="Sensing technology" />
+	<menu_index msgid="#techu1 .m1 a" msgstr="E-IMS" />
+	<menu_index msgid=".techmenu .m2 a" msgstr="Network transmission" />
+	<menu_index msgid="#techu1 .m2 a" msgstr="IP network video" />
+	<menu_index msgid=".techmenu .m3 a" msgstr="System platform" />
+	<menu_index msgid="#techu1 .m3 a" msgstr="NVR HD video" />
+	<menu_index msgid=".techmenu .m4 a" msgstr="Application Technology" />
+	<menu_index msgid="#techu1 .m4 a" msgstr="HD-SDI" />
+	<menu_index msgid=".techmenu .m5 a" msgstr="Wireless video" />
+	<menu_index msgid="#techu1 .m5 a" msgstr="Wireless video" />
+	<menu_index msgid="#techu1 .m6 a" msgstr="Intelligent analysis" />
+	<menu_index msgid=".techmenu .m6 a" msgstr="Intelligent analysis" />
+	<menu_index msgid="#techh2" msgstr="Technical term" />
+	<menu_index msgid="#leftside #xjjs span" msgstr="Technical term" />
+	<menu_index msgid="#techu2 .m1 a" msgstr="Sensing technology" />
+	<menu_index msgid="#techu2 .m2 a" msgstr="Network transmission" />
+	<menu_index msgid="#techu2 .m3 a" msgstr="System platform" />
+	<menu_index msgid="#techu2 .m4 a" msgstr="Application Technology" />
+	<menu_index msgid="#pro_window .m5 a" msgstr="Business introduction" />
+	<menu_index msgid="#leftside .business span" msgstr="Business introduction" />
+	<menu_index msgid=".businessmenu .m1 a" msgstr="Business introduction" />
+	<menu_index msgid=".businessmenu .m2 a" msgstr="Typical case" />
+	<menu_index msgid="#pro_window .m6 a" msgstr="Image advertising" />
+	<menu_index msgid="#pro_window .m7 a" msgstr="Feedback" />
+	<menu_index msgid="#pro_window .m8 a" msgstr="About us" />
+	<menu_index msgid="#leftside .aboutus span" msgstr="About us" />
+	
+	<menu_index msgid="#cpxh" msgstr="Product model" />
+	<menu_index msgid="#jstd" msgstr="Technology characteristics" />
+	<menu_index msgid="#cpdzb" msgstr="Product table" />
+	<menu_index msgid="#jq" msgstr="Bullet type" />
+	<menu_index msgid="#qq" msgstr="Dome type" />
+	<menu_index msgid="#bqq" msgstr="Hemisphere type" />
+	<menu_index msgid="#jqmmgz" msgstr="Rifle type naming rules" />
+	<menu_index msgid="#qqmmgz" msgstr="Dome type naming rules" />
+  <menu_index msgid="#spgdjmmgz" msgstr="Video optical transceiver naming rules" />
+  <menu_index msgid="#wlspbmqmmgz" msgstr="Network video encoder naming rules" />
+  <menu_index msgid="#ipszjjmqmmgz" msgstr="IP digital matrix naming rule" />
+	<menu_index msgid="#wxspjkmmgz" msgstr="Wireless video surveillance products naming rules" />
+	<menu_index msgid="#czqzxtmmgz" msgstr="Mobile vehicle system naming rules" />
+	<menu_index msgid="#dbqzxtmmgz" msgstr="Personal video system naming rules" />
+	<menu_index msgid="#dhxx" msgstr="Order information" />
+	<menu_index msgid="#cpsm" msgstr="Product description" />
+	<menu_index msgid="#cpfj" msgstr="Product breakdown" />
+	<menu_index msgid="#protype9" msgstr="IP camera" />
+	<menu_index msgid="#protype10" msgstr="IP camera" />
+	<menu_index msgid="#protype11" msgstr="IP camera" />
+	<menu_index msgid="#indexZH" msgstr="Exhibition" />
+<menu_index msgid="#movieh1" msgstr="Corporate videos" />
+<menu_index msgid="#movie1h3" msgstr="Advertisements" />
+<menu_index msgid="#mmovie1" msgstr="FHZZ image piece 2012" />
+<menu_index msgid="#mmovie2" msgstr="City chapter" />
+<menu_index msgid="#mmovie3" msgstr="Park chapter" />
+<menu_index msgid="#mmovie4" msgstr="Buildings papers" />
+	<menu_index msgid="#footername" msgstr="Wuhan FiberHome Digtal Technology  Co.,Ltd " />
+	<menu_index msgid="#footertel" msgstr="Customer service：027-86655926" />
+
+	<!--menu_index:end-->
+
+	<about msgid="#leftside h1 span" msgstr="Feedback" />
+	<about msgid="#liname" msgstr="Your nickname" />
+	<about msgid="#liaddress" msgstr="Your email" />
+	<about msgid="#limessage" msgstr="Your message" />
+	<about msgid="#res" msgstr="The message has been submitted successfully,thank you for your attention." />
+	<!--首页-->
+	<index msgid="pagetitle" msgstr="FiberHome Digital" />
+	<index1 msgid="pagetitle" msgstr="FiberHome Digital" />
+
+	<!--首页-->
+
+</po>

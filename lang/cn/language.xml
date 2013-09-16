@@ -1,0 +1,153 @@
+﻿<po>
+  <!--全局-->
+  <message msgid="#pChina a" msgstr="中文" />
+  <message msgid="#pEnging a" msgstr="英文" />
+  <!--全局-->
+
+  <!--menu_index:start-->
+<menu_index msgid="#pro_window .m1 a" msgstr="产品介绍" />
+<menu_index msgid="#wrap .m1 a" msgstr="政策法规" />
+<menu_index msgid="#protype1" msgstr="政策法规" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#wrap .m2 a" msgstr="网络视频录像机" />
+<menu_index msgid="#protype2" msgstr="网络视频录像机" />
+<menu_index msgid="#wrap .m3 a" msgstr="网络摄像机" />
+<menu_index msgid="#protype3" msgstr="网络摄像机" />
+<menu_index msgid="" msgstr="枪机命名规则" />
+<menu_index msgid="" msgstr="球机命名规则" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#wrap .m4 a" msgstr="视频编解码器" />
+<menu_index msgid="#protype4" msgstr="视频编解码器" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#wrap .m5 a" msgstr="无线视频监控产品" />
+<menu_index msgid="#protype5" msgstr="无线视频监控产品" />
+<menu_index msgid="" msgstr="无线视频监控产品命名规则" />
+<menu_index msgid="" msgstr="车载取证系统命名规则" />
+<menu_index msgid="" msgstr="单兵取证系统命名规则" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#wrap .m6 a" msgstr="网络存储" />
+<menu_index msgid="#protype6" msgstr="网络存储" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#wrap .m7 a" msgstr="光端机" />
+<menu_index msgid="#protype7" msgstr="光端机" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#wrap .m8 a" msgstr="网络键盘" />
+<menu_index msgid="#protype8" msgstr="网络键盘" />
+<menu_index msgid="" msgstr="司法解释" />
+<menu_index msgid="#pro_window .m2 a" msgstr="解决方案" />
+<menu_index msgid="#solve .title1" msgstr="智能监控与安全管理 解决方案" />
+<menu_index msgid="#solve .m1 a" msgstr="城市级" />
+<menu_index msgid="#solvetitle1" msgstr="城市级" />
+<menu_index msgid="#solve .m2 a" msgstr="政策法规" />
+<menu_index msgid="#solvetitle2	" msgstr="政策法规" />
+<menu_index msgid="#solve .m3 a" msgstr="楼宇级" />
+<menu_index msgid="#solvetitle3" msgstr="楼宇级" />
+<menu_index msgid="#solve .title2" msgstr="智慧行业" />
+<menu_index msgid="#solve .m4 a" msgstr="智能电网" />
+<menu_index msgid="#solvetitle4" msgstr="智能电网" />
+<menu_index msgid="#solve .m5 a" msgstr="智慧旅游" />
+<menu_index msgid="#solvetitle5" msgstr="智慧旅游" />
+<menu_index msgid="#solve .m6 a" msgstr="轨道交通" />
+<menu_index msgid="#solvetitle6" msgstr="轨道交通" />
+<menu_index msgid="#solve .m7 a" msgstr="电梯" />
+<menu_index msgid="#solvetitle7" msgstr="电梯" />
+<menu_index msgid="#solve .m8 a" msgstr="高速公路监控" />
+<menu_index msgid="#solvetitle8" msgstr="高速公路监控" />
+<menu_index msgid="#pro_window .m3 a" msgstr="公司介绍" />
+<menu_index msgid="#about .m1 a" msgstr="集团介绍" />
+<menu_index msgid=".aboutmenu .m1 a" msgstr="集团介绍" />
+<menu_index msgid="#leftside .about1" msgstr="集团介绍" />
+<menu_index msgid="#about .m2 a" msgstr="烽火众智" />
+<menu_index msgid=".aboutmenu .m2 a" msgstr="烽火众智" />
+<menu_index msgid="#leftside .about2" msgstr="烽火众智" />
+<menu_index msgid="#about .m3 a" msgstr="企业文化" />
+<menu_index msgid=".aboutmenu .m3 a" msgstr="企业文化" />
+<menu_index msgid="#leftside .about3" msgstr="企业文化" />
+<menu_index msgid="#about .m5 a" msgstr="品牌资质" />
+<menu_index msgid=".aboutmenu .m5 a" msgstr="品牌资质" />
+<menu_index msgid="#leftside .about5" msgstr="品牌资质" />
+<menu_index msgid=".pingpai1 .title" msgstr="品牌资质" />
+<menu_index msgid=".pingpai2 .title" msgstr="企业资质" />
+<menu_index msgid=".pingpai3 .title" msgstr="专业资质" />
+<menu_index msgid=".pingpai4 .title" msgstr="标准组织、学会" />
+<menu_index msgid="#about .m6 h1" msgstr="资讯中心" />
+<menu_index msgid=".aboutmenu .m6 a" msgstr="资讯中心" />
+<menu_index msgid="#leftside .about6" msgstr="资讯中心" />
+<menu_index msgid="#about .m4 a" msgstr="领导关怀" />
+<menu_index msgid=".aboutmenu .m4 a" msgstr="领导关怀" />
+<menu_index msgid="#leftside .about4" msgstr="领导关怀" />
+<menu_index msgid="#leftside .about7" msgstr="展会" />
+	<menu_index msgid=".aboutmenu .m7 a" msgstr="展会" />
+	<menu_index msgid="#pro_window .m4 a" msgstr="先进技术" />
+<menu_index msgid="#techh1" msgstr="技术方案" />
+<menu_index msgid="#leftside .tech span" msgstr="技术方案" />
+<menu_index msgid=".techmenu .m1 a" msgstr="传感技术" />
+<menu_index msgid="#techu1 .m1 a" msgstr="E-IMS" />
+<menu_index msgid=".techmenu .m2 a" msgstr="网络传输" />
+<menu_index msgid="#techu1 .m2 a" msgstr="IP网络视频" />
+<menu_index msgid=".techmenu .m3 a" msgstr="系统平台" />
+<menu_index msgid="#techu1 .m3 a" msgstr="NVR高清视频" />
+<menu_index msgid=".techmenu .m4 a" msgstr="应用技术" />
+<menu_index msgid="#techu1 .m4 a" msgstr="HD-SDI数字高清" />
+<menu_index msgid="#techu1 .m5 a" msgstr="无线视频" />
+<menu_index msgid=".techmenu .m5 a" msgstr="无线视频" />
+<menu_index msgid="#techu1 .m6 a" msgstr="智能分析" />
+<menu_index msgid=".techmenu .m6 a" msgstr="智能分析" />
+<menu_index msgid="#techh2" msgstr="技术名词" />
+<menu_index msgid="#leftside #xjjs span" msgstr="技术名词" />
+<menu_index msgid="#techu2 .m1 a" msgstr="传感技术" />
+<menu_index msgid="#techu2 .m2 a" msgstr="网络传输" />
+<menu_index msgid="#techu2 .m3 a" msgstr="系统平台" />
+<menu_index msgid="#techu2 .m4 a" msgstr="应用技术" />
+<menu_index msgid="#pro_window .m5 a" msgstr="业务介绍" />
+<menu_index msgid="#leftside .business span" msgstr="业务介绍" />
+<menu_index msgid=".businessmenu .m1 a" msgstr="业务介绍" />
+<menu_index msgid=".businessmenu .m2 a" msgstr="典型案例" />
+<menu_index msgid="#pro_window .m6 a" msgstr="形象广告" />
+<menu_index msgid="#pro_window .m7 a" msgstr="意见反馈" />
+<menu_index msgid="#pro_window .m8 a" msgstr="关于我们" />
+<menu_index msgid="#leftside .aboutus span" msgstr="关于我们" />
+
+	<menu_index msgid="#cpxh" msgstr="中华人民共和国城市房地产管理法" />
+	<menu_index msgid="#jstd" msgstr="中华人民共和国合同法" />
+	<menu_index msgid="#cpdzb" msgstr="产品对照表" />
+	<menu_index msgid="#jq" msgstr="枪机" />
+	<menu_index msgid="#qq" msgstr="球机" />
+	<menu_index msgid="#bqq" msgstr="半球机" />
+	<menu_index msgid="#jqmmgz" msgstr="枪机命名规则" />
+	<menu_index msgid="#qqmmgz" msgstr="球机命名规则" />
+  <menu_index msgid="#spgdjmmgz" msgstr="视频光端机命名规则" />
+  <menu_index msgid="#wlspbmqmmgz" msgstr="网络视频编码器命名规则" />
+  <menu_index msgid="#ipszjjmqmmgz" msgstr="IP数字矩阵解码器命名规则" />
+	<menu_index msgid="#wxspjkmmgz" msgstr="无线视频监控产品命名规则" />
+	<menu_index msgid="#czqzxtmmgz" msgstr="车载取证系统命名规则" />
+	<menu_index msgid="#dbqzxtmmgz" msgstr="单兵取证系统命名规则" />
+	<menu_index msgid="#dhxx" msgstr="订货信息" />
+	<menu_index msgid="#cpsm" msgstr="产品说明" />
+	<menu_index msgid="#cpfj" msgstr="产品分解" />
+	<menu_index msgid="#protype9" msgstr="网络摄像机" />
+	<menu_index msgid="#protype10" msgstr="网络摄像机" />
+	<menu_index msgid="#protype11" msgstr="网络摄像机" />
+	<menu_index msgid="#indexZH" msgstr="展会" />
+<menu_index msgid="#movieh1" msgstr="企业宣传片" />
+<menu_index msgid="#movie1h3" msgstr="宣传广告" />
+<menu_index msgid="#mmovie1" msgstr="FHZ烽火众智形象片2013" />
+<menu_index msgid="#mmovie2" msgstr="城市篇" />
+<menu_index msgid="#mmovie3" msgstr="园区篇" />
+<menu_index msgid="#mmovie4" msgstr="楼宇篇" />
+	<menu_index msgid="#footername" msgstr="温州市房屋登记中心" />
+	<menu_index msgid="#footertel" msgstr="服务电话：0577-88864444" />
+	
+<!--menu_index:end-->
+	
+	<about msgid="#leftside h1 span" msgstr="意见反馈" />
+	<about msgid="#liname" msgstr="您的昵称" />
+	<about msgid="#liaddress" msgstr="邮箱地址" />
+	<about msgid="#limessage" msgstr="您的留言" />
+	<about msgid="#res" msgstr="留言已成功提交，谢谢您的关注。" />
+	<!--首页-->
+  <index msgid="pagetitle" msgstr="温州市房屋登记中心" />
+	<index1 msgid="pagetitle" msgstr="温州市房屋登记中心" />
+  <!--首页-->
+ 
+</po>

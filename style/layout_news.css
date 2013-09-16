@@ -1,0 +1,903 @@
+/*
+-----------------------------------------
+	CSS "layout" files for Plantronics.com
+-----------------------------------------
+*/
+
+body {
+	/* padding-bottom:100px;*/
+	padding-bottom: 0;
+	display:block;
+	width:100%;
+	/*text-align:center;*/
+	margin:0 auto 80px auto;
+	background:#000 url("../images/bg-body-blue-news.jpg") no-repeat 50% 0;
+	/*background:#757575;*/
+}
+
+body.pgSimple {
+  	margin:0 auto;
+	padding:10px 20px;
+	width:auto;
+	background:#fff none;
+	text-align:left;
+}
+
+
+/*
+--------------------------------------
+  Container
+--------------------------------------
+*/
+
+#pgContainerWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+#pgContainer {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+
+/* used for simple pages */
+#pgContainerSimple {
+	background:#f7f7f7;
+	padding:20px;
+}
+
+
+/*
+--------------------------------------
+  Utility Bar
+--------------------------------------
+*/
+
+
+#pgUtilityBarWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+#pgUtilityBar {
+	width:940px;
+	height:20px;
+	display:block;
+	margin:0 auto 0 auto;
+	text-align:left;
+	padding:5px 10px 0 10px;
+	/*background:transparent url("../../images/skin/bg-overlay-dark20.png") repeat-y 50% 0;*/
+}
+/*
+--------------------------------------------------------------
+  Primary Nav (layout only - for more refer to nav.css)
+--------------------------------------------------------------
+*/
+
+
+#pgHeaderOuterWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto 0 auto;
+	padding:0;
+	text-align:center;
+}
+#pgHeaderWrapper {
+	width:964px;
+	height:75px;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	position:relative;
+	z-index:990;
+	/*background:transparent url("../../images/skin/bg-overlay-dark20.png") repeat-y 50% 0;*/
+}
+#pgHeader {
+	width:964px;
+	height:75px;
+	display:block;
+	margin:0;
+	padding:0;
+	top:4px;
+	left:0;
+	position:absolute;
+	z-index:990;
+	background:transparent url("../images/header-block_news.png") no-repeat 0 0;
+
+}
+
+#pgHeader h1 {
+	/* text-align: left;*/
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 32px;
+	font-family: 华文中宋, 宋体;
+}
+
+#pgHead_title {
+	display: block;
+    left: 30px;
+    position: absolute;
+    top: 18px;
+}
+
+#pgHeader h2 {
+	/* text-align: left;*/
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 华文中宋, 宋体;
+	
+	display: block;
+    left: 380px;
+    position: absolute;
+    top: 28px;
+}
+
+#linkLogoPLT {
+	display:block;
+	position:absolute;
+	top:18px;
+	left:30px;
+}
+#imgLogoPLT {
+	display:block;
+	margin:0 0 0 0;
+}
+
+
+.pgSkeleton #pgHeaderWrapper, 
+.pgSkeleton #pgHeader 
+{
+  background:none;
+  width:940px;
+  height:80px;
+}
+.pgSkeleton #pgHeader 
+{
+  width:900px;
+  padding:30px 20px 20px 20px;
+  height:25px;
+}
+.pgSkeleton #linkLogoPLT 
+{
+  position:static;
+  float:left;
+}
+
+
+
+/*
+--------------------------------------
+  Breadcrumbs
+--------------------------------------
+*/
+
+#pgBreadcrumbs {
+	width:940px;
+	display:block;
+	margin:0 auto 0px auto;
+	text-align:left;
+	padding:0 0;
+	position:relative;
+  min-height:1px;
+}
+
+/*
+--------------------------------------
+  Banner / Carousel
+--------------------------------------
+*/
+
+#pgBannerWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+#pgBanner {
+	width:940px;
+	height:380px;
+	display:block;
+	margin:0 auto 15px auto;
+	padding:0;
+	text-align:left;
+	position:relative;
+}
+
+/*
+--------------------------------------
+  Main Content
+--------------------------------------
+*/
+
+#pgBodyWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+#pgBody {
+	width:940px;
+	display:block;
+	margin:0 auto;
+	padding:0 10px 0 10px;
+	text-align:left;
+	/*background:transparent url("../../images/skin/bg-overlay-dark20.png") repeat-y 50% 0;*/
+}
+
+/*
+--------------------------------------
+  Footer
+--------------------------------------
+*/
+
+#pgFooterWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:0 0 80px 0;
+	text-align:center;
+	background:transparent url("/images/skin/bg-overlay-dark60.png") repeat 0 0;
+}
+.pgSkeleton #pgFooterWrapper {
+	background:transparent none;
+}
+#pgFooter {
+	border-top:1px solid #222;
+	width:940px;
+	display:block;
+	margin:0 auto;
+	padding:18px 0 10px 0;
+	text-align:left;
+	position:relative;
+}
+/*
+.us #pgFooter {
+	padding-top:0;
+	border:none;
+}*/
+
+.pgSkeleton #pgFooterWrapper, .pgSkeleton #pgFooter {
+  border:0 none;
+  padding:0;
+}
+
+/*
+--------------------------------------
+  Debug block
+--------------------------------------
+*/
+
+#pgDebugWrapper {
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:0 ;
+	text-align:center;
+	border-top:5px solid #ff5400;
+	border-bottom:5px solid #ff5400;
+	background:#eee;
+}
+#pgDebug {
+	width:940px;
+	display:block;
+	margin:0 auto;
+	padding:20px 0 20px 0;
+	text-align:left;
+	position:relative;
+}
+
+/*
+--------------------------------------------------
+ Header - UtilityBar
+--------------------------------------------------
+*/
+
+
+#pgUtilityBar p, 
+#pgUtilityBar span, 
+#pgUtilityBar a {
+	font-size:11px;
+}
+
+
+.account {
+	float:right;
+	display:inline;
+	margin:0 0 10px 0;
+	position:relative;
+	text-align:center;
+	padding:0;
+	font-size:10px;
+	line-height:28px;
+}
+.promoSpot, 
+.accountStatus, 
+.techSupport 
+{
+	float:left;
+	display:inline;
+	margin:0 0 0 0;
+	padding:0;
+	text-align:left;
+	border:0 none;
+}
+.promoSpot p, 
+.techSupport p  
+{
+	float:left;
+	display:inline;
+	margin:0 0 0 0;
+	padding:0;
+	text-align:left;
+	font-weight:normal;
+	text-transform:none;
+	color:#fff;
+}
+.promoSpot {
+	margin-right:20px;
+}
+.promoSpot p a 
+{
+	color:#fff;
+}
+.promoSpot p strong 
+{
+	color:#EE7D1F;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+a.linkPromoSpot  
+{
+	padding-right:10px;
+	padding-left:10px;
+  color:#fff;
+}
+
+.accountStatus {
+	float:right;
+	display:inline;
+	margin:0 0 0 20px;
+	padding:0;
+	text-align:left;
+	border:0 none;
+	font-weight:normal;
+	text-transform:none;
+	position:relative;
+}
+.techSupport {
+	float:left;
+	display:inline;
+	margin:0 0 0 0;
+	padding:0 5px;
+	text-align:left;
+	border:0 none;
+	font-weight:normal;
+	text-transform:none;
+}
+.techSupport p {
+	color:#fff;
+}
+.techSupport a {
+	color:#82b8fa;
+	padding:0 15px 0 5px;
+	background:transparent url("/images/icons/filetype/icon-phone-bitmap-wht.gif") no-repeat 100% 60%;
+}
+.us .techSupport {
+}
+
+
+.accountStatus a {
+	color:#fff;
+}
+.cartSummary {
+	float:right;
+	display:inline;
+	margin:0 0 0 20px;
+	padding:0 18px 0 0;
+	text-align:left;
+	border:0 none;
+	font-weight:normal;
+	text-transform:none;
+	color:#fff;
+	background:transparent url("../../images/icons/store/bg-cart.gif") no-repeat 100% 60%;
+}
+.utilityWhereToBuy {
+	float:right;
+	display:inline;
+	padding-right:18px;
+	background:transparent url("../../images/icons/store/icon-where-to-buy.gif") no-repeat 100% 60%;
+}
+.cartSummary a,  
+.utilityWhereToBuy a 
+{
+	color:#fff;
+}
+.utilityCounterfeit {
+	float:right;
+	display:inline;
+	padding-right:18px;
+}
+.utilityCounterfeit a {
+	color:#fff;
+}
+
+
+/*
+--------------------------------------------------
+ Header - Site Search
+--------------------------------------------------
+*/
+#headerSearch {
+	display:block;
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+#headerSearch form {
+	margin:0;
+	padding:0;
+}
+#headerSearch fieldset {
+	margin:0;
+	padding:0;
+	border:none;
+	background:transparent
+}
+#headerSearch legend {
+	display:none;
+}
+#headerSearch .fieldText label {
+	float:left;
+	display:inline;
+	font-weight:normal;
+	color:#222;
+	text-transform:uppercase;
+	font-size:0.75em;
+	padding:5px 5px 5px 0;
+	margin:0;
+
+	display:none;
+
+}
+#headerSearch .fieldSelectSearchFilters label {
+		display:none;
+}
+#headerSearch .fieldText input {
+	float:left;
+	display:inline;
+	width:180px;
+	font-size:13px;
+	line-height:normal;
+	margin:0 0 0 0;
+	background:transparent;
+	border:0 none;
+	padding:6px 10px 7px 10px;
+}
+#headerSearch .fieldText input:focus {
+}
+#headerSearch .fieldSubmit input {
+	float:left;
+	display:inline;
+	margin:0;
+	padding:0;
+	clear:none;
+}
+#headerSearch .fieldText, 
+#headerSearch .fieldSelect, 
+#headerSearch .fieldSubmit 
+{
+	float:left;
+	display:inline;
+	clear:none;
+	padding:0;
+	margin:0;
+	height:28px; 
+}
+#headerSearch .fieldSelect select {
+	float:left;
+	display:inline;
+	padding:0;
+	margin:1px 5px 0 0;
+	background:#f7f7f7;
+	border-color:#999 #ddd #ddd #999;
+	border-style:solid;
+	border-width:1px;
+	padding:1px;
+}
+.fieldsetHiddenFields {display:none;}
+
+#headerSearch .fieldText {
+	background:transparent url("../../images/skin/bg-search-text-input.gif") no-repeat 0 0;
+	width:200px;
+}
+
+#headerSearch .fieldSubmit {
+	margin-left:10px;
+}
+#headerSearch button.submitBtn {
+	
+	margin: 0 0 0 0; 
+	padding: 0 0 0 0; 
+	width:28px; 
+	height:28px; 
+	background:transparent url("../../images/buttons/btn-search-submit-sprite.gif") no-repeat 0 0;	
+}
+#headerSearch button.submitBtn span {
+	
+	margin: 0 0 0 0; 
+	padding: 28px 0 0 0; 
+	width:28px; 
+	height:0;
+	overflow:hidden;
+	background:transparent none;
+}
+#headerSearch button.submitBtn:hover {
+	background-position: 0 -48px;	
+}
+
+
+/*
+----------------------------------------------------------------
+	Body Content
+	updated June 2011 Aaron Sonnenshine
+	to support new styles and correct IE issues
+----------------------------------------------------------------
+*/
+.mainContent {
+	float:left;
+	display:inline;
+}
+.secNavContent {
+	float:left;
+	display:inline;
+	width:220px;
+	margin-right:20px;
+}
+.subContent {
+	float:right;
+	display:inline;
+}
+.pgOneCol .mainContent 		{ width:940px; }
+.pgOneColNav .mainContent 	{ width:700px; }
+.pgTwoCol .mainContent 		{ width:640px; }
+.pgTwoCol .subContent 		{ width:280px; }
+.pgTwoColNav .mainContent 	{ width:460px; }
+.pgTwoColNav .subContent 	{ width:220px; }
+
+
+/*
+----------------------------------------------------------------
+	Banner/Carousel
+----------------------------------------------------------------
+*/
+.banner,  
+.carousel 
+{
+	width:700px;
+	height:270px;
+	background:transparent none;
+	margin:0 0 18px 0;
+}
+
+
+
+/*
+----------------------------------------------------------------
+	Module
+	updated June 2011 Aaron Sonnenshine
+	to support new styles and correct IE issues
+	
+	example: 
+	
+	<div class="module clearfix">
+		<div class="moduleHeader clearfix"></div>
+		<div class="moduleContent clearfix">
+			<!-- content markup here -->
+		</div>
+		<div class="moduleFooter clearfix"></div>
+	</div>
+	
+----------------------------------------------------------------
+*/
+.module {
+	float:left;
+	display:inline;
+	width:220px;
+	margin:0 0 18px 0;
+	padding:0 0 0 0;
+}
+.moduleHeader {
+	padding:0 20px 0 20px;
+	position:relative;
+	min-height:18px;
+	background-repeat: no-repeat;	
+	background-position: 0 0;	
+	background-image: url("../images/bg-rounded-corners-sprite-top-gry.gif");	
+	background-color: transparent;	
+}
+.moduleContent {
+	padding:0 20px 9px 20px;
+	background-color: #eee;	
+	border-collapse: collapse;
+}
+.moduleFooter {
+	padding:0 20px 0 20px;
+	position:relative;
+	min-height:9px;
+	background-repeat: no-repeat;	
+	background-position: 0 100%;	
+	background-image: url("../images/bg-rounded-corners-sprite-btm-gry.gif");	
+	background-color: transparent;	
+}
+
+/* module styles per template */
+.pgOneCol .mainContent .module, 
+.pgOneCol .mainContent .banner, 
+.pgOneCol .mainContent .carousel				{ width:935px; }
+
+.pgOneColNav .mainContent .module,
+.pgOneColNav .mainContent .banner,
+.pgOneColNav .mainContent .carousel
+												{ width:935px; }
+.pgTwoCol .mainContent .module, 					
+.pgTwoCol .mainContent .banner,
+.pgTwoCol .mainContent .carousel
+												{ width:640px; }
+.pgTwoCol .subContent .module 					{ width:280px; }
+.pgTwoColNav .mainContent .module, 				
+.pgTwoColNav .mainContent .banner,
+.pgTwoColNav .mainContent .carousel
+												{ width:460px; }
+.pgTwoColNav .subContent .module 				{ width:220px; }
+
+/* module header/footer styles per template */
+.pgOneCol .mainContent .moduleHeader		{ background-position: -2640px 0; }
+.pgOneCol .mainContent .moduleFooter 		{ background-position: -2640px 100%; }
+.pgOneColNav .mainContent .moduleHeader		{ background-position: -2640px 0; }
+.pgOneColNav .mainContent .moduleFooter		{ background-position: -2640px 100%; }
+.pgTwoCol .mainContent .moduleHeader		{ background-position: -1300px 0; }
+.pgTwoCol .mainContent .moduleFooter		{ background-position: -1300px 100%; }
+.pgTwoCol .subContent .moduleHeader			{ background-position: -220px 0; }
+.pgTwoCol .subContent .moduleFooter			{ background-position: -220px 100%; }
+.pgTwoColNav .mainContent .moduleHeader		{ background-position: -840px 0; }
+.pgTwoColNav .mainContent .moduleFooter		{ background-position: -840px 100%; }
+.pgTwoColNav .subContent .moduleHeader		{ background-position: 0 0; }
+.pgTwoColNav .subContent .moduleFooter		{ background-position: 0 100%; }
+
+/* special styles for irregular pages */
+.pgOneColNav .mainContent .modHalfWidth.module 			{ width:340px; }
+.pgOneColNav .mainContent .modHalfWidth.odd.module 		{ margin-right:20px; }
+.pgOneColNav .mainContent .modHalfWidth .moduleHeader	{ background-position: -500px 0; }
+.pgOneColNav .mainContent .modHalfWidth .moduleFooter	{ background-position: -500px 100%; }
+
+/* special styles for irregular pages */
+.pgOneCol .mainContent .modHalfWidth.module 			{ width:440px; }
+.pgOneCol .mainContent .modHalfWidth.odd.module 		{ margin-right:20px; }
+
+/* white color module */
+.modWhite .moduleHeader 	{ background-image: url("/images/skin/bg-rounded-corners-sprite-top-wht.gif");	}
+.modWhite .moduleContent 	{ background-color: #fff;	}
+.modWhite .moduleFooter 	{ background-image: url("/images/skin/bg-rounded-corners-sprite-btm-wht.gif");	}
+
+/* charcoal color module */
+.modDark .moduleHeader 		{ background-image: url("/images/skin/bg-rounded-corners-sprite-top-charcoal.gif");	}
+.modDark .moduleContent 	{ background-color: #333;	}
+.modDark .moduleFooter 		{ background-image: url("/images/skin/bg-rounded-corners-sprite-btm-charcoal.gif");	}
+
+/* black banner module */
+.pgOneColNav .modFocus .moduleHeader 	{ height:0; min-height:0; background:transparent none;	}
+.pgOneColNav .modFocus .moduleContent 	{ padding-top:18px;background:transparent url("/images/carousel/slides/700px/slide-default.gif") no-repeat 0 0;	}
+.pgOneColNav .modFocus .moduleFooter 	{ background:transparent url("/images/carousel/slides/700px/slide-default.gif") no-repeat 0 100%;	}
+
+.modFocus * {color:#fff;}
+
+/* modNoPad */
+.modNoPad .moduleContent {
+	padding:0 0 9px 0;
+}
+/* modTopHat */
+.modTopHat {}
+.modTopHat .moduleHeader, 
+.modWhite.modTopHat .moduleHeader 
+{
+	height:35px;
+	background-image: url("/images/skin/bg-module-header-sprite-charcoal.gif");
+	border-bottom:1px solid #fff;
+}
+.modTopHat .moduleContent { padding-top:18px;}
+.secNav.modTopHat .moduleContent { padding-top:0;}
+
+.modDark.modTopHat .moduleHeader {
+	background-image: url("/images/skin/bg-module-header-sprite-tortoise.gif");
+	border-color:#000;
+}
+
+
+
+/*
+----------------------------------------------------------------
+	Basic Divs for Layout
+----------------------------------------------------------------
+*/
+.block {
+	display:block;
+	margin:0 0 0;
+	padding:9px 0 9px 0;
+	/*background:transparent url("../../images/skin/bg-divider-gry-tile-x.gif") repeat-x 0 0;*/
+  	clear:left;
+}
+.section {
+	float:left;
+	display:inline;
+}
+.block .section.odd { margin-right:20px;}
+.block .section.even { margin-right:0; }
+.subContent .section {
+	padding:9px 0 0 0;
+	/*background:transparent url("../../images/skin/bg-divider-gry-tile-x.gif") repeat-x 0 0;*/
+}
+/*
+.block.first, .subContent .section.first, .subContent .module .moduleContent > .section:first-child,  .mainContent .module .moduleContent > .block:first-child { padding-top:0;background-image:none;}
+*/
+.pgOneCol .mainContent .block .section    	{ width:440px; }
+.pgOneColNav .mainContent .block .section 	{ width:300px; }
+.pgTwoCol .mainContent .section 			{ width:600px; }
+.pgTwoCol .mainContent .block .section    	{ width:280px; }
+.pgTwoCol .subContent .section            	{ width:240px; }
+.pgTwoColNav .mainContent .block .section 	{ width:200px; }
+.pgTwoColNav .subContent .section         	{ width:180px; }
+
+/*
+----------------------------------------------------------------
+	Mobile Layout
+----------------------------------------------------------------
+*/
+
+/*
+
+@media screen and (max-device-width: 480px){
+	body {
+		display:block;
+		width:100%;
+		margin:0;
+		padding:0;
+		background:#000 none;
+		font-size: 100%;
+	}
+	
+	#pgContainerWrapper, #pgContainer, 
+	#pgHeaderOuterWrapper, #pgHeaderWrapper, #pgHeader, 
+	#pgBannerWrapper, #pgBanner, 
+	#pgBodyWrapper, #pgBody, 
+	#pgFooterWrapper, #pgFooter, 
+	#pgBody  
+	
+	{
+		display:block;
+		position:static;
+		width:100%;
+		height:auto;
+		padding:0;
+		margin:0;
+		background-image:none;
+	}
+	#pgFooter 
+	
+	{
+		padding:5px 0 0 0;
+		margin:0;
+	}
+	#pgUtilityBarWrapper,
+	#pgBreadcrumbs,
+	.moduleHeader, .moduleFooter
+	{display:none;}
+	#pgHeaderWrapper {
+		display:block;
+		position:static;
+		top:auto;
+		margin:0 0 1px 0;
+		padding:0 0 0 0;
+		background: #fff;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#ccc));
+		background: -moz-linear-gradient(#fff, #ccc);
+		background: linear-gradient(#fff, #ccc);
+		-pie-background: linear-gradient(#fff, #ccc);
+		width:100%;
+		height:auto;
+	}
+	#pgHeader {
+		width:100%;
+		height:auto;
+		display:block;
+		position:relative;
+		top:auto;
+		margin:0 0 0 0;
+		padding:0 0 0 0;
+	}
+	#pgHeader #linkLogoPLT { 
+		
+		float:left;
+		display:inline;
+		position:static;
+		margin:0 0 0 0;
+		padding:5px 5px 2px 10px;
+	}
+	#pgHeader #imgLogoPLT { 
+		width:80%;
+	}
+	img{
+	  max-width:100%;
+	  height:auto;
+	}
+
+}
+*/
+
+
+#pgBreadcrumbs h1 {
+    color: #EEEEEE;
+    margin: 0 0 18px;
+    padding-top: 18px;
+	font-size: 28px;
+}
+
+
+
+.art-post-body {
+    padding: 1px;
+    position: relative;
+}
+.art-article {
+    border-collapse: collapse;
+	border: 1px solid #6d6d6d;
+	background-color: #cdcdcd;
+}
+
+.art-post {
+	padding: 5px 10px 25px 10px;
+}
+
+.art-article-up {
+    padding: 11px;
+}
+
+.updatetime {
+    float: right;
+    font-size: 11px;
+    padding: 10px;
+}
+
+.art-postheader {
+	color: #D13D29;
+    margin: 7px 0;
+    padding-left: 9px;
+	font-size: 20px;
+	font-family: 华文中宋, 宋体;
+    text-align: center;
+}
+
+.art-postcontent {
+	font-family: 华文中宋, 宋体, Arial,Helvetica,Sans-Serif;
+    font-size: 14px;
+    line-height: 200%;
+    padding: 9px;
+}
+
+p.home img { position:absolute; left:5px; top:5px;}
+
+p.back { width:64px; height:64px; float:right; position:relative;}
+p.back a { width:64px; height:64px; background:url(../images/btn_back.png) center center no-repeat;_background:url(/images/btn8.gif) center center no-repeat;display:block; text-indent:-999em; overflow:hidden;position:absolute; z-index:999; left:7px; }
+p.back a:hover { width:64px; height:64px; background:url(../images/btn_back_h.png) center center no-repeat;_background:url(/images/btn8_h.gif) center center no-repeat; display:block; text-indent:-999em; overflow:hidden;position:absolute; z-index:999; left:7px;  }
+
+p.back img { position:absolute; left:5px; top:5px;}
